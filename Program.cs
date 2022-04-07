@@ -5,6 +5,11 @@
 /// complexity of managing Thread, ThreadPool, and TaskScheduler.
 /// Below are examples, both good and bad to demonstrate how to run multiple 
 /// tasks/promises/futures at the same time.
+/// https://docs.microsoft.com/en-us/dotnet/csharp/async
+/// https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern
+/// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await
+/// https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task
+/// https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.whenall
 /// </summary>
 Console.WriteLine("Start Notification Server!");
 Job job = new Job();
